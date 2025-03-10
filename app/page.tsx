@@ -9,9 +9,9 @@ export default function Home() {
             <Image 
               src="/images/me.jpg" 
               alt="Ziyang Luo"
-              fill
-              sizes="(max-width: 768px) 100vw, 25vw"
-              className="object-cover"
+              width={300}
+              height={375}
+              className="object-cover w-full h-full"
               priority
             />
           </div>
