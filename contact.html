@@ -6,6 +6,15 @@
     <title>Contact - Ziyang's Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpeg" href="images/me.jpg">
+    <script>
+        // 立即设置主题，防止页面闪烁
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
 </head>
 <body>
     <nav class="navbar">
