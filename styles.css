@@ -443,6 +443,13 @@ body::after {
     margin-bottom: 0.2rem;
 }
 
+.affiliation .aws-logo {
+    width: 1.3rem;
+    height: 0.85rem;
+    margin-right: 0.4rem;
+    vertical-align: -0.12rem;
+}
+
 .social-links {
     display: flex;
     flex-wrap: wrap;
@@ -586,6 +593,13 @@ section h2::after {
     height: 1rem;
     object-fit: contain;
     transition: transform 0.3s ease;
+}
+
+.aws-logo {
+    object-fit: contain;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 1px;
 }
 
 .institution:hover .logo-small {
